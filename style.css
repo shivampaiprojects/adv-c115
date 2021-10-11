@@ -1,0 +1,16 @@
+h3{
+    font-size: 30px !important;
+}
+canvas{
+    animation-name: Clown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes Clown{
+   from{
+       box-shadow: 1px 1px 30px #ffd700;
+   }
+   to{
+       box-shadow: 1px 1px 30px indigo;
+   }
+}
